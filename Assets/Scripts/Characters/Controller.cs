@@ -104,6 +104,8 @@ public class PlayerController : Controller
 		// Tell camera to follow transform
 		CameraController.Main.SetTarget(Character.Head);
 
+		Character.Rigidbody.interpolation = RigidbodyInterpolation.Interpolate;
+
 		//Hide our own meshes, so we can still see clearly
 		var meshRenderers = Character.GetComponentsInChildren<MeshRenderer> ();
 		foreach (var r in meshRenderers)

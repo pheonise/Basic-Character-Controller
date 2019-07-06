@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class ShooterCharacter : Character
 {
-	public float ShotPower = 20f;	//How fast the 'shot' is fired
+	[Tooltip("How fast the SHOT is launched")]
+	public float ShotPower = 20f;
 	
 	protected override void TryAction()
 	{
 		//Create a ball, and launch it via Physics
-		var ballObj = Instantiate (GameManager.Main.Prefabs.InteractiveBall, Head.position + Head.forward, Head.rotation);
+		var ballObj = Instantiate (GameManager.Main.Prefabs.InteractiveBall, head.position + head.forward, head.rotation);
 		var ballRb = ballObj.GetComponent<Rigidbody> ();
-		ballRb.velocity = Head.forward * ShotPower;
+		ballRb.velocity = head.forward * ShotPower;
 	}
 }

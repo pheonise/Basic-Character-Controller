@@ -262,10 +262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad929d629b8cbd41bb3b9709e51180d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Controller:
-    Character: {fileID: 0}
   ControllerType: 1
-  Head: {fileID: 4341518007940414501}
+  head: {fileID: 4341518007940414501}
   MoveSpeed: 5
   MoveSharpness: 10
   JumpForce: 7
