@@ -10,4 +10,4 @@ Characters are controlled via a Controller. There is both a Player Controller (w
 Simple Interactions are included, with a Door example in the scene. A Door Handle will open it's attached Door when interacted with, and a Doorbell will play a doorbell sound effect when interacted with.
 There are also interactive balls in the scene, which will change to a random color when interacted with. These can also be 'kicked' by the Kicker Character.
 
-This project can be used simnply as a learning resource, or as the basis for a game. If you like it or it helps you out, let me know at https://twitter.com/Pheonise
+This project can be used simply as a learning resource, or as the basis for a game. If you like it or it helps you out, let me know at https://twitter.com/Pheonise
